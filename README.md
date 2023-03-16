@@ -10,6 +10,9 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ```bash
 # Rodando o projeto
 $ npm run start:dev
+
+# Abrir o banco de dados do prisma
+$ npx prisma studio
 ```
 
 ### Prisma configuração
@@ -23,6 +26,9 @@ $ npm i @prisma/client
 
 # Rodar
 $ npx prisma init --datasource-provider sqlite
+
+# Criar tabelas
+$ npx prisma migrate dev
 ```
 
 ### Tecnologias
