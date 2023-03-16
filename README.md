@@ -12,10 +12,24 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ npm run start:dev
 ```
 
+### Prisma configuração
+
+```bash
+# Instalação cli
+$ npm i prisma
+
+# Dependencia de producao
+$ npm i @prisma/client
+
+# Rodar
+$ npx prisma init --datasource-provider sqlite
+```
+
 ### Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
+- [Prisma](https://www.prisma.io/)
 - [NestJS](https://docs.nestjs.com/)
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
