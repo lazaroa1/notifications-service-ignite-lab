@@ -13,6 +13,10 @@ $ npm run start:dev
 
 # Abrir o banco de dados do prisma
 $ npx prisma studio
+
+# Rodar os tests
+$ npm run test
+$ npm run test:watch
 ```
 
 ### Prisma configuração
